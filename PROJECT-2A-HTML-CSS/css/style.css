@@ -1,0 +1,154 @@
+/* GLOBAL style */
+body{
+    font-family: 'Mulish', sans-serif;
+}
+*{
+    margin: 0;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+/* END GLOBAL style */
+
+
+
+.menu{
+    background: #170845;
+}
+
+.logo{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wrap-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.list-menu{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item-menu{
+    margin-left: 10px;
+}
+.item-menu a{
+    color: #fff;
+}
+.banner{
+    height: 300px;
+    width: 100%;
+    background: #dedede;
+}
+.banner-home{
+    height: 500px;
+    background-image: url(../images/photo-1669872666457-d5a771c83715.webp);
+    background-size: cover;
+    background-position: center center;
+}
+.banner-home .caption{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.feature{
+    margin-top: 30px    ;
+}
+.box-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.box{
+    border: 1px solid #dedede;
+    padding: 15px;
+    height: 150px;
+    text-align: center;
+}
+.box20{
+    width: 20%;
+}
+.box50{
+    width: 50%;
+}
+.box25{
+    width: 25%;
+}
+.box60{
+    width: 60%;
+}
+.box50{
+    width: 50%;
+}
+.box40{
+    width: 40%;
+}
+.box100{
+    width: 100%;
+}
+
+.squere{
+    border: 1px solid #dedede;
+    padding: 30px;
+    border-radius: 10;
+}
+
+@media (max-width: 1200px){
+    .container{
+        padding: 0px 30px 0px 30px;
+    }
+}
+
+@media (max-width: 768px){
+    .box-group{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+.box-2{
+    border: 1px solid #dedede;
+    padding: 30px;
+    text-align: center;
+}
+
+.home-slider{
+    height: 500px;
+    background-color: #dedede;
+    width: 100%;
+}
+
+.box-service{
+    text-align: center;
+    padding: 30px;
+}
+
+.icon-service{
+    font-size: 70px;
+    color: green;
+}
+
+.ads{
+    border-top: 1px solid #dedede;
+    padding-top: 30px;
+}
+
+.left-content{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

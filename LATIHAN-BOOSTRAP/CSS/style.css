@@ -1,0 +1,14 @@
+.body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+.carousel-contain {
+    background-color: black;
+
+}
+
