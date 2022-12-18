@@ -103,32 +103,10 @@ a{
     border-radius: 10;
 }
 
-@media (max-width: 1200px){
-    .container{
-        padding: 0px 30px 0px 30px;
-    }
-}
-
-@media (max-width: 768px){
-    .box-group{
-        flex-direction: column;
-    }
-    .box{
-        width: 100%;
-        box-sizing: border-box;
-    }
-}
-
 .box-2{
     border: 1px solid #dedede;
     padding: 30px;
     text-align: center;
-}
-
-.home-slider{
-    height: 500px;
-    background-color: #dedede;
-    width: 100%;
 }
 
 .box-service{
@@ -137,7 +115,7 @@ a{
 }
 
 .icon-service{
-    font-size: 70px;
+    font-size: 100px;
     color: green;
 }
 
@@ -151,4 +129,52 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.float-end{
+    padding: 0px;
+}
+
+footer{
+    padding-bottom: 30px;
+}
+
+/* .home-slider .carousel-item{
+    max-height: 700px;
+    overflow-y: hidden;
+}
+
+.home-slider .carousel-item img{
+    margin-top: -200px;
+} */
+
+.home-slider .carousel-item{
+    height: 95vh;
+    background-repeat :no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.home-slider .carousel-item .caption{
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+@media (max-width: 1200px){
+    .container{
+        padding: 0px 30px 0px 30px;
+    }
+    /* .home-slider .carousel-item img{
+        margin-top: -200px; */
+
+}
+
+@media (max-width: 768px){
+    .box-group{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
